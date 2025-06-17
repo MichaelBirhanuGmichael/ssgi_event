@@ -49,9 +49,9 @@ export default function TestimonialSlider() {
 
   return (
     <section className="bg-[#0f112e] py-16 px-4">
-      <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-10 gap-6 md:gap-0">
-          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white leading-snug">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-snug">
             What they think <br className="hidden sm:block" /> about us?
           </h2>
 

@@ -30,7 +30,7 @@ export default function Footer() {
         />
       </div>
 
-      <div className="relative z-10 max-w-[1440px] mx-auto px-6 py-16 flex flex-col md:flex-row gap-10">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row gap-10">
         {/* Left Section */}
         <div className="w-full md:w-1/2">
           <div className="flex items-center gap-2 mb-4">

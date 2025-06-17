@@ -4,7 +4,7 @@ import { Globe, Settings, SlidersHorizontal, Megaphone } from "lucide-react";
 export default function AboutSection() {
   return (
     <section className="bg-[#0f112e] text-white py-20 px-4">
-      <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left: Who We Are */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">WHO WE ARE</h2>

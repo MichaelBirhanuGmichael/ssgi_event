@@ -43,7 +43,7 @@ export default function EventifyHero() {
       <Navbar />
 
       {/* Content */}
-      <div className="relative z-10 max-w-[1440px] w-full grid grid-cols-1 md:grid-cols-2 items-center gap-8 pt-20">
+      <div className="relative z-10 max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 items-center gap-8 pt-20">
         {/* Left content */}
         <div className="w-full text-left space-y-6 px-4 sm:px-6 md:px-0 max-w-xl">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-snug sm:leading-tight">

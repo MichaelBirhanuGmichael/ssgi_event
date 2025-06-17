@@ -37,7 +37,7 @@ const galleryItems = [
 export default function GallerySection() {
   return (
     <section className="py-16 px-6 bg-[#f9f9f7]">
-      <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-medium tracking-widest text-black mb-10">— GALLERY</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 auto-rows-[200px] gap-6">

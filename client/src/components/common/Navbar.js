@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="absolute top-0 w-full max-w-[1440px] mx-auto px-6 md:px-0 py-4 flex justify-between items-center z-40 bg-transparent">
+      <header className="absolute top-0 w-full max-w-7xl mx-auto px-6 md:px-0 py-4 flex justify-between items-center z-40 bg-transparent">
         {/* Logo */}
         <div className="text-xl font-bold tracking-wide">
           <Image

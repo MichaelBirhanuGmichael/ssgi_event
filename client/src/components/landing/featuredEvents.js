@@ -50,7 +50,7 @@ const events = [
 const FeaturedEvents = () => {
   return (
     <section className="py-12 px-4 md:px-8 lg:px-16 bg-white">
-      <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 mb-2">Past Events</h2>
         <p className="text-gray-600 mb-8">Take a look back at some of our most memorable events.</p>
 
