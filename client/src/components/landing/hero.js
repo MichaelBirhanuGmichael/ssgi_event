@@ -43,30 +43,36 @@ export default function EventifyHero() {
       <Navbar />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 items-center gap-8 pt-20">
+      <div className="relative z-10 max-w-[1440px] w-full grid grid-cols-1 md:grid-cols-2 items-center gap-8 pt-20">
         {/* Left content */}
-        <div className="text-left space-y-6">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            The Ultimate Platform for <br /> Planning and Promoting <br />{" "}
+        <div className="w-full text-left space-y-6 px-4 sm:px-6 md:px-0 max-w-xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-snug sm:leading-tight">
+            The Ultimate Platform for 
+            Planning and Promoting 
             Successful Events
           </h1>
-          <p className="text-gray-300">
+
+          <p className="text-gray-300 text-sm sm:text-base">
             Eventify is a leading event and conference website that brings
             together industry experts, thought leaders, and enthusiasts from
             around the world to share knowledge, network, and make lasting
             connections.
           </p>
-          <div className="flex gap-4 items-center text-sm text-gray-400">
+
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4 text-sm text-gray-400">
             <div>
-              <p className="uppercase tracking-wider">9 June 2023</p>
-              <p className="font-medium text-white">
+              <p className="uppercase tracking-wider text-xs sm:text-sm">
+                9 June 2023
+              </p>
+              <p className="font-medium text-white text-sm sm:text-base">
                 Get Inside in The Philosopher&apos;s Mind
               </p>
             </div>
-            <button className="bg-white text-black px-4 py-2 rounded-md font-medium hover:bg-gray-200">
+            <button className="bg-white text-black px-4 py-2 rounded-md font-medium hover:bg-gray-200 w-full sm:w-auto">
               Buy Tickets
             </button>
           </div>
+
           <a
             href="#about"
             className="text-sm text-indigo-400 underline inline-block"
@@ -95,7 +101,6 @@ export default function EventifyHero() {
                 <div
                   key={index}
                   className={`flex-shrink-0 snap-center relative rounded-xl overflow-hidden shadow-lg border border-white/10 bg-cover bg-center transition-all duration-500 hover:scale-100 hover:blur-none hover:opacity-100 ${blur} ${scale} ${opacity}`}
-
                   style={{
                     backgroundImage: `url(${event.image})`,
                     width: "70%",

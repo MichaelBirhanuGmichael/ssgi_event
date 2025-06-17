@@ -8,30 +8,51 @@ const events = [
     date: '29 Jan',
     location: 'Grand Chapiteau',
     image: '/images/sampleOne.jpg',
-    buttonStyle: 'bg-gray-100 text-black hover:bg-gray-200',
+    buttonStyle: 'bg-[#0f112e] text-white hover:bg-gray-500 hover:text-black',
   },
   {
     title: 'Web design conference 2023',
     date: '29 Jan',
     location: 'Grand Chapiteau',
     image: '/images/sampleTwo.jpg',
-    buttonStyle: 'bg-gray-100 text-black hover:bg-gray-200',
+    buttonStyle: 'bg-[#0f112e] text-white hover:bg-gray-500 hover:text-black',
   },
   {
     title: 'Digital Economy Conference 2023',
     date: '29 Jan',
     location: 'Grand Chapiteau',
     image: '/images/sampleThree.jpg',
-    buttonStyle: 'bg-black text-white hover:bg-gray-900',
+    buttonStyle: 'bg-[#0f112e] text-white hover:bg-gray-500 hover:text-black',
+  },
+  {
+    title: 'Digital thinkers meetup',
+    date: '29 Jan',
+    location: 'Grand Chapiteau',
+    image: '/images/sampleOne.jpg',
+    buttonStyle: 'bg-[#0f112e] text-white hover:bg-gray-500 hover:text-black',
+  },
+  {
+    title: 'Web design conference 2023',
+    date: '29 Jan',
+    location: 'Grand Chapiteau',
+    image: '/images/sampleTwo.jpg',
+    buttonStyle: 'bg-[#0f112e] text-white hover:bg-gray-500 hover:text-black',
+  },
+  {
+    title: 'Digital Economy Conference 2023',
+    date: '29 Jan',
+    location: 'Grand Chapiteau',
+    image: '/images/sampleThree.jpg',
+    buttonStyle: 'bg-[#0f112e] text-white hover:bg-gray-500 hover:text-black',
   },
 ];
 
 const FeaturedEvents = () => {
   return (
     <section className="py-12 px-4 md:px-8 lg:px-16 bg-white">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 mb-2">Featured Events</h2>
-        <p className="text-gray-600 mb-8">Be sure not to miss these Event today.</p>
+      <div className="max-w-[1440px] mx-auto">
+        <h2 className="text-3xl font-bold text-gray-900 mb-2">Past Events</h2>
+        <p className="text-gray-600 mb-8">Take a look back at some of our most memorable events.</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {events.map((event, index) => (
