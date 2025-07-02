@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <div className="">
-      <header className="bg-[#0f112e] my-2 rounded-2xl w-full max-w-7xl mx-auto px-6 py-4 flex justify-between items-center z-40 ">
+      <header className="bg-[#0f112e] md:my-2 md:rounded-2xl w-full max-w-7xl mx-auto px-6 py-4 flex justify-between items-center z-40 ">
         {/* Logo */}
         <div className="text-xl font-bold tracking-wide">
           <a href="/" className="flex items-center">
@@ -75,40 +75,14 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <nav className="mt-12 flex flex-col gap-5 text-sm">
-          <a
-            href="#about"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-purple-400"
-          >
-            Event 1
+          <a href="/about" className="hover:text-white">
+            About Us
           </a>
-          <a
-            href="#event"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-purple-400"
-          >
-            Event 2
+          <a href="/gallery" className="hover:text-white">
+            Gallery
           </a>
-          <a
-            href="#speaker"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-purple-400"
-          >
-            Event 3
-          </a>
-          <a
-            href="#ticket"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-purple-400"
-          >
-            Event 4
-          </a>
-          <a
-            href="#blogs"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-purple-400"
-          >
-            Event 5
+          <a href="/events" className="hover:text-white">
+            Events
           </a>
           <button className="mt-4 bg-gradient-to-r from-purple-500 to-indigo-500 px-4 py-2 rounded-md text-white font-semibold">
             Contact

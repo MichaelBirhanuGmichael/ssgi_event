@@ -13,8 +13,8 @@ export default function ContactPage() {
       </div>
 
       {/* Contact Info */}
-      <div className="flex flex-col md:flex-row justify-between gap-10 mb-10">
-        <div className="md:w-1/2 space-y-6">
+      <div className="flex flex-col  gap-10 mb-10">
+        <div className="w-full justify-between space-x-6 space-y-6 flex md:flex-row flex-col">
           {/* Address */}
           <div className="flex items-start gap-3">
             <FaMapMarkerAlt className="text-xl text-[#0f112e] mt-1" />
@@ -49,9 +49,12 @@ export default function ContactPage() {
               <p className="font-semibold text-black">support@SSGI.gov.et</p>
             </div>
           </div>
+        </div>
 
-          {/* Map */}
-          <div className="w-full h-80">
+        {/*  Form */}
+        <div className="w-full flex flex-col md:flex-row gap-6 mt-4">
+        {/* Map */}
+        <div className="w-full h-120">
             <iframe
               title="Google Map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.4789851701407!2d38.760385574827225!3d9.019994789130273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8585f0126257%3A0x65dd1dc0f4bc9ffd!2sSpace%20Science%20and%20Geospatial%20Institute!5e0!3m2!1sen!2set!4v1751447988734!5m2!1sen!2set"
@@ -60,12 +63,8 @@ export default function ContactPage() {
               loading="lazy"
             ></iframe>
           </div>
-        </div>
-
-        {/*  Form */}
-        <div className="w-full md:w-1/2">
           {/* Form */}
-          <div className="w-full bg-white px-6 py-14 shadow-sm">
+          <div className="w-full bg-white p-6 shadow-sm">
             <h3 className="text-xl text-center font-semibold mb-4">Send Us A Message</h3>
             <form className="space-y-6">
               <div>
