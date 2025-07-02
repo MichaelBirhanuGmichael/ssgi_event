@@ -68,17 +68,10 @@ export default function EventifyHero() {
                 Get Inside in The Philosopher&apos;s Mind
               </p>
             </div>
-            <button className="bg-white text-black px-4 py-2 rounded-md font-medium hover:bg-gray-200 w-full sm:w-auto">
-              Buy Tickets
+            <button className="bg-white uppercase text-black px-4 py-2 rounded-md font-medium hover:bg-gray-200 w-full sm:w-auto">
+              register now
             </button>
           </div>
-
-          <a
-            href="#about"
-            className="text-sm text-indigo-400 underline inline-block"
-          >
-            See more about us
-          </a>
         </div>
 
         <div className="relative w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory hide-scrollbar">
