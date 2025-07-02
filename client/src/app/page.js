@@ -1,20 +1,22 @@
 import React from "react";
 import EventHero from "@/components/landing/hero";
-import AboutSection from "@/components/landing/about";
 import EventCountdown from "@/components/landing/nextEvent";
-import FeaturedEvents from "@/components/landing/featuredEvents";
 import TestimonialSlider from "@/components/landing/testimonial";
-import GallerySection from "@/components/landing/gallery";
+import Schedule from "@/components/landing/schedule";
+import WhyJoin from "@/components/landing/whyJoin";
+import EventSpeakers from "@/components/landing/eventSpeaker";
+import SponsorsSection from "@/components/landing/sponsors";
 
 export default function Home() {
   return (
     <>
       <EventHero />
-      <AboutSection />
+      <WhyJoin />
       <EventCountdown />
-      <FeaturedEvents />
+      <Schedule />
+      <EventSpeakers />
+      <SponsorsSection />
       <TestimonialSlider />
-      <GallerySection />
     </>
   );
 }

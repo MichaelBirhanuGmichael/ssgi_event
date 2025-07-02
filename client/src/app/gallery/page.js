@@ -32,11 +32,41 @@ const galleryItems = [
     image: "/images/sampleFive.jpg",
     rowSpan: "col-span-1",
   },
+  {
+    title: "Tea tasting",
+    image: "/images/sampleOne.jpg",
+    rowSpan: "col-span-1",
+  },
+  {
+    title: "Plethora of books",
+    image: "/images/sampleTwo.jpg",
+    rowSpan: "col-span-2",
+  },
+  {
+    title: "Chrysanthemum farm",
+    image: "/images/sampleThree.jpg",
+    rowSpan: "col-span-1",
+  },
+  {
+    title: "Agricultural workshops",
+    image: "/images/spaceNight.jpg",
+    rowSpan: "col-span-2",
+  },
+  {
+    title: "Performances",
+    image: "/images/sampleFour.jpg",
+    rowSpan: "col-span-1",
+  },
+  {
+    title: "A miniature village",
+    image: "/images/sampleFive.jpg",
+    rowSpan: "col-span-1",
+  },
 ];
 
 export default function GallerySection() {
   return (
-    <section className="py-16 px-6 bg-[#f9f9f7]">
+    <section className="py-16 px-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-medium tracking-widest text-black mb-10">— GALLERY</h2>
 

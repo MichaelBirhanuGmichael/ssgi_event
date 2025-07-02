@@ -1,39 +1,30 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import { Icon } from "@iconify/react";
 
-export default function Navbar() {
+export default function LandingNavbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="">
-      <header className="bg-[#0f112e] my-2 rounded-2xl w-full max-w-7xl mx-auto px-6 py-4 flex justify-between items-center z-40 ">
+    < >
+      <header className="absolute top-0 w-full max-w-7xl mx-auto px-6 md:px-0 py-4 flex justify-between items-center z-40 bg-transparent">
         {/* Logo */}
         <div className="text-xl font-bold tracking-wide">
-          <a href="/" className="flex items-center">
-            <Image
-              src="/images/ssgiLogo.png"
-              alt="SSGI Logo"
-              width={150}
-              height={100}
-              className="h-10 w-auto"
-            />
-          </a>
+          <Image
+            src="/images/ssgiLogo.png"
+            alt="SSGI Logo"
+            width={150}
+            height={100}
+            className="h-10 w-auto"
+          />
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6 text-sm text-gray-300">
-          <a href="/about" className="hover:text-white">
-            About Us
-          </a>
-          <a href="/gallery" className="hover:text-white">
-            Gallery
-          </a>
-          <a href="/events" className="hover:text-white">
-            Events
-          </a>
+          <a href="/about" className="hover:text-white">About Us</a>
+          <a href="/gallery" className="hover:text-white">Gallery</a>
+          <a href="/events" className="hover:text-white">Events</a>
           <a href="/contact">
             <button className="ml-4 bg-gradient-to-r from-purple-500 to-indigo-500 px-4 py-2 rounded-md text-white font-semibold">
             Contact
@@ -75,46 +66,16 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <nav className="mt-12 flex flex-col gap-5 text-sm">
-          <a
-            href="#about"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-purple-400"
-          >
-            Event 1
-          </a>
-          <a
-            href="#event"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-purple-400"
-          >
-            Event 2
-          </a>
-          <a
-            href="#speaker"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-purple-400"
-          >
-            Event 3
-          </a>
-          <a
-            href="#ticket"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-purple-400"
-          >
-            Event 4
-          </a>
-          <a
-            href="#blogs"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-purple-400"
-          >
-            Event 5
-          </a>
+          <a href="#about" onClick={() => setIsOpen(false)} className="hover:text-purple-400">Event 1</a>
+          <a href="#event" onClick={() => setIsOpen(false)} className="hover:text-purple-400">Event 2</a>
+          <a href="#speaker" onClick={() => setIsOpen(false)} className="hover:text-purple-400">Event 3</a>
+          <a href="#ticket" onClick={() => setIsOpen(false)} className="hover:text-purple-400">Event 4</a>
+          <a href="#blogs" onClick={() => setIsOpen(false)} className="hover:text-purple-400">Event 5</a>
           <button className="mt-4 bg-gradient-to-r from-purple-500 to-indigo-500 px-4 py-2 rounded-md text-white font-semibold">
             Contact
           </button>
         </nav>
       </div>
-    </div>
+    </>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Navbar from "../common/Navbar";
+import LandingNavbar from "../common/landingNavbar";
 import Image from "next/image";
 
 const featuredEvents = [
@@ -40,7 +40,7 @@ export default function EventifyHero() {
       </div>
 
       {/* Navbar */}
-      <Navbar />
+      <LandingNavbar />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 items-center gap-8 pt-20">

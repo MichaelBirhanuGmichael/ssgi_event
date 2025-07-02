@@ -13,7 +13,7 @@ const EventCountdown = () => {
   });
 
   useEffect(() => {
-  const eventDate = new Date("2025-06-20T00:00:00"); 
+  const eventDate = new Date("2025-07-20T00:00:00"); 
   const timer = setInterval(() => {
     const now = new Date();
     const difference = eventDate - now;
